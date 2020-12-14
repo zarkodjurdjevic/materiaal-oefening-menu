@@ -1,4 +1,8 @@
 /* vloeiend scrollen zie: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp  */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -11,9 +15,9 @@ body {
     margin: 0;
     text-align: center;
     font-size: 30px;
-    collor: whitesmoke;
+    color: whitesmoke;
     background-image: url(../afb/Kerstmenu.jpeg)
-    background-position: center;
+    
 }
 
 main {
@@ -37,6 +41,19 @@ section header {
     background-position: center;
     padding: 30px;
 }
+#voor header {
+    background-image: url(../afb/bietentartaar.jpg);
+}
+#hoofd header {
+    background-image: url(../afb/pastinaak.jpg);
+}
+#bij header {
+    background-image: url(../afb/stoofpeertjes.jpg);
+}
+#na header {
+    background-image: url(../afb/tiramisu.jpg);
+}
+
 h1, h2, h4 {
     color: white;
     text-align: center; 
@@ -78,3 +95,32 @@ footer a {
     border: 0;
     margin: 0 .3em;
 }
+nav {
+    background-color: rgb(197, 62, 62);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+nav li {
+    flex: 1 0 auto ;
+}
+nav li + li {
+    border-left: solid 2px wheat;
+}
+nav a {
+   color: white; 
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(71, 126, 189);
+    color: wheat;
+}
+
