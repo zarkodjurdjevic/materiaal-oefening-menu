@@ -1,7 +1,7 @@
 # een menu
 ## oefenmateriaal F1M2 ONT
 Zie https://blanken5.home.xs4all.nl/webSlidesPresentaties/menu.html
-
+Zarko live link versie hier: http://31924.hosts1.ma-cloud.nl/validerenont/les5/materiaal-oefening-menu/index.html
 ## Let op
 Deze markup bevat fouten!
 Valideer op W3C voor je verder gaat https://validator.w3.org/#validate_by_input
@@ -20,4 +20,4 @@ is niet verplicht
 1. maak het menu sticky
 1. zorg ervoor dat de gekozen sectie niet onder het menu schuift
 
-Link naar de uitgewerkte versie: http://31924.hosts1.ma-cloud.nl/ont%20valideren/Nieuwe%20map/materiaal-oefening-menu/index.html
+Link naar de uitgewerkte versie: http://31924.hosts1.ma-cloud.nl/validerenont/les5/materiaal-oefening-menu/index.html
